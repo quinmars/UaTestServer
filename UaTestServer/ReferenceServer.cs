@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Selectors;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Quickstarts.ReferenceServer
+namespace UaTestServer.ReferenceServer
 {
     /// <summary>
     /// Implements a basic Quickstart Server.
@@ -52,7 +52,7 @@ namespace Quickstarts.ReferenceServer
         /// <summary>
         /// The namespace for the nodes provided by the server.
         /// </summary>
-        public const string Namespace = "http://opcfoundation.org/Quickstarts/ReferenceApplications";
+        public const string Namespace = "http://github.com/quinmars/uatestserver";
 
         /// <summary>
         /// Creates the node managers for the server.
@@ -87,7 +87,7 @@ namespace Quickstarts.ReferenceServer
 
             properties.ManufacturerName = "OPC Foundation";
             properties.ProductName = "Quickstart Reference Server";
-            properties.ProductUri = "http://opcfoundation.org/Quickstart/ReferenceServer/v1.04";
+            properties.ProductUri = Namespace;
             properties.SoftwareVersion = Utils.GetAssemblySoftwareVersion();
             properties.BuildNumber = Utils.GetAssemblyBuildNumber();
             properties.BuildDate = Utils.GetAssemblyTimestamp();
