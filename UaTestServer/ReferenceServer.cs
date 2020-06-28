@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Selectors;
 using System.Security.Cryptography.X509Certificates;
 
-namespace UaTestServer.ReferenceServer
+namespace UaTestServer
 {
     /// <summary>
     /// Implements a basic Quickstart Server.

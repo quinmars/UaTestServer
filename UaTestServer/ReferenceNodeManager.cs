@@ -35,7 +35,7 @@ using System.Numerics;
 using Opc.Ua;
 using Opc.Ua.Server;
 
-namespace UaTestServer.ReferenceServer
+namespace UaTestServer
 {
     /// <summary>
     /// A node manager for a server that exposes several variables.

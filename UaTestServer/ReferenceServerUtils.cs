@@ -33,7 +33,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
-namespace UaTestServer.ReferenceServer
+namespace UaTestServer
 {
     /// <summary>
     /// The interface that a server exposes to objects that it contains.

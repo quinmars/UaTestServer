@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using Opc.Ua.Server;
 using Opc.Ua;
 
-namespace UaTestServer.ReferenceServer
+namespace UaTestServer
 {
     /// <summary>
     /// Stores the configuration the data access node manager.
